@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - shrader
+  - foreground
+  - Return_Point
+  - Slow_Point
+  - Score_Text
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Platform
+  - Player
+  - ground
+  - Light
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Bottem Ground
+    uniqueID: 2642464353
+    locked: 0
+  - name: Background
+    uniqueID: 2953750575
+    locked: 0
+  - name: Mid Ground
+    uniqueID: 1864786505
+    locked: 0
+  - name: Player
+    uniqueID: 2919731363
+    locked: 0
+  - name: Light
+    uniqueID: 2251967117
+    locked: 0
+  - name: ForeGround
+    uniqueID: 1266998365
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

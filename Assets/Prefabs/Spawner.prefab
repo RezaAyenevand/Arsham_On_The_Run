@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4213492752421115406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4213492752421115404}
+  - component: {fileID: 4213492752421115407}
+  - component: {fileID: 779433319}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4213492752421115404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4213492752421115406}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.38, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4213492752421115407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4213492752421115406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b76b994a245381c478c4760d4e81cb0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjects:
+  - {fileID: 2881192496511585003, guid: f16e320f50c57194daf375ee5fbd5e5b, type: 3}
+  - {fileID: 6329291003878731569, guid: 07d9d26c3d12ea049ab770585f01e53e, type: 3}
+  - {fileID: 3164335635539573311, guid: 47c4745a02f83fc4787fccdc0b7e7810, type: 3}
+  file: {fileID: 4900000, guid: fe6fe75d9eabc104f92062e83c163e81, type: 3}
+  spawnPoint: {fileID: 0}
+  levelOffset: 1.5
+  lastPlat: {fileID: 0}
+  ground: {fileID: 0}
+  lightPlat: {fileID: 0}
+--- !u!114 &779433319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4213492752421115406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 512ec21635dc6654aafe18e82fadcf6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platform: {fileID: 2881192496511585003, guid: f16e320f50c57194daf375ee5fbd5e5b,
+    type: 3}
+  trapObject: {fileID: 6329291003878731569, guid: 07d9d26c3d12ea049ab770585f01e53e,
+    type: 3}
+  speed: 1
